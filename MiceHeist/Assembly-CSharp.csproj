@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{DAF75129-E571-F7F8-F9FF-4009C550BA22}</ProjectGuid>
+    <ProjectGuid>{0C667072-7B2A-8DE1-CF59-824A55072B38}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -88,22 +88,22 @@
     <Compile Include="Assets\Scripts\Turrets\Turret.cs" />
     <Compile Include="Assets\Scripts\Turrets\TurretBlueprint.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/Andrew/Desktop/MiceHeistJACK/MiceHeistJack/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Andrew/Desktop/MiceHeist/MiceHeist/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Andrew/Desktop/MiceHeistJACK/MiceHeistJack/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Andrew/Desktop/MiceHeist/MiceHeist/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Andrew/Desktop/MiceHeistJACK/MiceHeistJack/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Andrew/Desktop/MiceHeist/MiceHeist/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/Andrew/Desktop/MiceHeistJACK/MiceHeistJack/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/Users/Andrew/Desktop/MiceHeist/MiceHeist/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/Andrew/Desktop/MiceHeistJACK/MiceHeistJack/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Andrew/Desktop/MiceHeist/MiceHeist/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Andrew/Desktop/MiceHeistJACK/MiceHeistJack/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Andrew/Desktop/MiceHeist/MiceHeist/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

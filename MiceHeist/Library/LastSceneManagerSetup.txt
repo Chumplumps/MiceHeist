@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Night 3.unity
+- path: Assets/Scenes/Making Stuff.unity
   isLoaded: 1
   isActive: 1
