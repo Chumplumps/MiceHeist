@@ -63,9 +63,9 @@ public class WaveManager : MonoBehaviour
         
         print("Current Wave: " + (waveIndex + 1) + "");
 
-        if (waveIndex == waveSettings.Length) //I added this part here
+        if (waveIndex == waveSettings.Length) 
         {
-            Debug.Log("This kitchen is still bitchin");
+            Debug.Log("Stage Complete");
             this.enabled = false;
         }
     }
