@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     bool gameEnded = false;
+    public GameObject completeLevelUI;
 
 	void Update ()
     {
@@ -20,5 +21,10 @@ public class GameManager : MonoBehaviour
     void EndGame()
     {
         gameEnded = true;
+    }
+
+    public void WinLevel()
+    {
+        completeLevelUI.SetActive(true);
     }
 }

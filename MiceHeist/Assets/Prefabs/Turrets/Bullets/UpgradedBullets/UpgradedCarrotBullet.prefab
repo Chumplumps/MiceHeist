@@ -675,10 +675,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 60
-  damage: 10
-  explosionRadius: 0
+  damage: 8
+  chilliRadius: 0
+  plumRadius: 0
   impacteffect: {fileID: 1049414813182046, guid: 3c55fe62c66d92f429e3757d5171195c,
     type: 2}
+  spicy: {fileID: 0}
 --- !u!135 &135090979089457612
 SphereCollider:
   m_ObjectHideFlags: 1

@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
-  damage: 12
+  damage: 5
   chilliRadius: 5
   plumRadius: 0
   impacteffect: {fileID: 1981398815946026, guid: d44e41b31306a3f4db5a9c915ccfc436,

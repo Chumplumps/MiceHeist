@@ -18,6 +18,8 @@ public class WaveManager : MonoBehaviour
     public GameObject[] enemyPrefabs;
     public int waveIndex = 0;
 
+    public GameManager gameManager;
+
     private Transform[] points;
     private int enemyCount = 0;
 
@@ -36,6 +38,12 @@ public class WaveManager : MonoBehaviour
 
     IEnumerator StartWave(Wave currentWave)
     {
+        if (PlayerStats.Lives <= 0)
+        {
+            Debug.Log("The game's supposed to end here");
+            this.enabled = false;
+        }
+
         while (enemyCount < currentWave.enemies) 
 		{
 			enemyCount++;
@@ -65,9 +73,11 @@ public class WaveManager : MonoBehaviour
 
         if (waveIndex == waveSettings.Length) 
         {
-            Debug.Log("Stage Complete");
+            gameManager.WinLevel();
             this.enabled = false;
         }
+
+        
     }
 
     void StartNextWave()
