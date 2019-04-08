@@ -85,7 +85,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1323317926803906}
   m_LocalRotation: {x: -0.08151843, y: -0.7023603, z: 0.08152573, w: 0.7024232}
-  m_LocalPosition: {x: 0.392, y: 0.081, z: -0.052}
+  m_LocalPosition: {x: 0.392, y: -0.08, z: -0.052}
   m_LocalScale: {x: 0.442344, y: -0.09194592, z: 0.442344}
   m_Children: []
   m_Father: {fileID: 4617763523050452}
@@ -98,7 +98,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1516685060286230}
   m_LocalRotation: {x: -0, y: -0.70710707, z: -0, w: 0.70710653}
-  m_LocalPosition: {x: 107.15, y: 0.82579, z: 55.088}
+  m_LocalPosition: {x: 57.393654, y: -0.70000005, z: 53.94183}
   m_LocalScale: {x: 3.0992744, y: 3.0992744, z: 3.0992744}
   m_Children:
   - {fileID: 4979013533483548}
@@ -126,7 +126,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1355284293986150}
   m_LocalRotation: {x: -0, y: 0.0000004172325, z: -0, w: 1}
-  m_LocalPosition: {x: 0.472, y: -0.5606213, z: 4.734}
+  m_LocalPosition: {x: 0.472, y: -0.72, z: 4.734}
   m_LocalScale: {x: 0.68484473, y: 0.68484473, z: 0.68484473}
   m_Children:
   - {fileID: 4915432602465446}
@@ -243,9 +243,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6a07123ff016d4d8cdb3f157848d92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 17
   health: 10
-  value: 2
+  value: 3
   deathEffect: {fileID: 1160801069137822, guid: fffd71251069d094d9e305aeb3552ea3,
     type: 2}
   damageEffect: {fileID: 1876877407364878, guid: 773e230fa329f8c4ba2001e361f15344,
